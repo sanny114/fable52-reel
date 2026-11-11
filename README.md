@@ -5,6 +5,8 @@
 - 公開ページ: https://sanny114.github.io/fable52-reel/
 - `fable52_reel.mp4` — 本編（1920×1080 / 30fps / 音声つき）
 - `src/fable.py` — 映像と音楽のソース（Python。numpy・Pillow・imageio-ffmpeg を使用）
+- `fable52_making.mp4` — 解説編（76秒）。本編の裏側を、1コマの組み立て・粒の動き・音の作りの順に見せる
+- `src/making.py` — 解説編のソース（`fable.py` を部品として使う。本編の frames フォルダと audio.wav が同じ場所に必要）
 
 作り直し（`src/` で実行。全体で約3分）:
 
